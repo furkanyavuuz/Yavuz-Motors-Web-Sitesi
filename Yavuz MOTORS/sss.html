@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>YAVUZ MOTORS - SSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/01.jpeg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">YAVUZ MOTORS</h1>
+								<h6 class="tm-site-description">Güvenle Hizmetinizde...</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Anasayfa</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">Kurumsal</a></li>
+								<li class="tm-nav-li"><a href="hizmetler.html" class="tm-nav-link">Hizmetler</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">İletişim</a></li>
+								<li class="tm-nav-li"><a href="sss.html" class="tm-nav-link active">S.S.S</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			
+			<div class="tm-container-inner-2 tm-info-section">
+				<div class="row">
+					<!-- FAQ -->
+					<div class="col-12 tm-faq">
+						<h2 class="text-center tm-section-title">SIKÇA SORULAN SORULAR</h2>
+						<p class="text-center">Yavuz MOTORS ile ilgili aklınızda bulunan sorulara bakabilirsiniz.</p>
+						<div class="tm-accordion">
+							<button class="accordion">1. Yavuz Motors'da bulunan otomobiller ne kadar güvenilir?</button>
+							<div class="panel">
+							  <p>Yavuz Motors her şeyden önce müşteri memnuniyetini hedef haline getirip, araç satışlarında bu doğrultuda işlemler yapar. Örneğin dilediğiniz aracı
+							  satın almak istediğinizde ekspertiz raporu ile bu güvenilirliği sağlayabilirsiniz.</p>
+							</div>
+							
+							<button class="accordion">2. Yavuz Motors'tan araba kiralayabilir miyim ?</button>
+							<div class="panel">
+							  <p>Hayır. Yavuz Motors'da sadece satılık ilanlar bulunmaktadır.</p>
+							</div>
+							
+							<button class="accordion">3. Yavuz Motors 2. el araba satın alıyor mu ?</button>
+							<div class="panel">
+							  <p>Evet. İkinci el otomobillerinize ekspertiz yapıldıktan sonra değerine göre alım ve satım yapılabilir.</p>
+							</div>
+							
+							<button class="accordion">4. Yaptırılan oto ekspertizlerin ücreti nedir ?</button>
+							<div class="panel">
+								<p>Otomobillerde söylenen hataların dışında bir kusur çıktığında herhangi bir ücret alınmamaktadır. Bunun dışında ekspertiz ücreti 200 TL'dir.</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>  
+			
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Yavuz MOTORS &copy; SINCE 1999 
+            
+            | Furkan Yavuz </p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
